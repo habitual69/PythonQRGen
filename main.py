@@ -29,5 +29,6 @@ def genqr(name,phoneno,url):
     print(".....")
     qrout.svg(f"{name}.svg", scale = 8)
     qrout=qrout.png(f"{name}.png", scale = 6)
+    print("Here is your QRCode "+os.listdir())
 
 menu()
